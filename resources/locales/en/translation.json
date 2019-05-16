@@ -1,3 +1,4 @@
 {
-    "greeting": "hello!"
+    "greeting": "hello!",
+    "no-translation": "This message is only in English."
 }
