@@ -4,8 +4,7 @@
   "description": "An example project demonstrating an i18n approach for express.",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
