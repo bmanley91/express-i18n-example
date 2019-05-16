@@ -1,0 +1,30 @@
+{
+  "name": "express-i18n-example",
+  "version": "1.0.0",
+  "description": "An example project demonstrating an i18n approach for express.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmanley91/express-i18n-example.git"
+  },
+  "keywords": [
+    "i18n",
+    "express"
+  ],
+  "author": "bmanley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmanley91/express-i18n-example/issues"
+  },
+  "homepage": "https://github.com/bmanley91/express-i18n-example#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "i18next": "^15.1.1",
+    "i18next-express-middleware": "^1.8.0",
+    "i18next-node-fs-backend": "^2.1.3"
+  }
+}
