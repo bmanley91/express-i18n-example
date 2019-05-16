@@ -24,4 +24,16 @@ app.get('/greeting', (req, res) => {
     res.send(response);
 });
 
+app.get('/no-translation', (req, res) => {
+    const response = req.t('no-translation');
+    res.status(200);
+    res.send(response);
+});
+
+app.get('/no-message', (req, res) => {
+    const response = req.t('foo');
+    res.status(200);
+    res.send(response);
+});
+
 app.listen(8080, () => console.log('Example app listening on port 8080!'));
